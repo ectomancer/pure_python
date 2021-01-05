@@ -6,7 +6,9 @@
 <p>|  q-Pochhammer symbol q_poch</p>
 <p>|  q-bracket q_bracket</p>
 <p>|  q-factorial q_factorial</p>
-<p>|  (to come) q-binomial coefficients q_binom</p>
-<p>|  (to come) binomial coefficient binom (using q_binom and without factorial function)</p>
+<p>|  q-binomial coefficients q_binom</p>
+<p>|  binomial coefficient binom (using q_binom and without factorial function)</p>
+<p>|  unilateral basic hypergeometric series q_hyper (accepts all parameters as complex numbers)</p>
+<p>|  (not implemented) bilateral basic hypergeometric series</p>
 <p>treefactorial.py</p>
 <p>|  factorial</p>
