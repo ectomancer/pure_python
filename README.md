@@ -1,7 +1,7 @@
 # pure_python
 <p>Pure Python special functions</p>
 <p>Bessel–Clifford function.ipynb</p>
-<p>| Bessel–Clifford function Cn</p>
+<p>| Bessel–Clifford function Cn (argument complex but n restricted to integer instead of complex)</p>
 <p>q-analog.ipynb</p>
 <p>|  q-Pochhammer symbol q_poch</p>
 <p>|  q-bracket q_bracket</p>
