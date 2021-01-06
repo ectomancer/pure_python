@@ -9,6 +9,6 @@
 <p>|  q-binomial coefficients q_binom</p>
 <p>|  binomial coefficient binom (using q_binom and without factorial function)</p>
 <p>|  unilateral basic hypergeometric series q_hyper (accepts all parameters as complex numbers)</p>
-<p>|  (not implemented) bilateral basic hypergeometric series</p>
+<p>|  bilateral basic hypergeometric series q_hyper(type=2) (accepts all parameters as complex numbers)</p>
 <p>treefactorial.py</p>
 <p>|  factorial</p>
