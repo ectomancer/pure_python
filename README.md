@@ -25,6 +25,6 @@
 <p>|  (not implemented) backward difference operator</p>
 <p>|  q-exponential functions e_q and E_q</p>
 <p>|  q-sine functions q_sin and q_Sin</p>
-<p>|  (not implemented) q-cosine functions</p>
+<p>|  q-cosine functions q_cos and q_Cos</p>
 <p>treefactorial.py</p>
 <p>|  factorial</p>
