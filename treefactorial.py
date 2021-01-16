@@ -13,31 +13,13 @@ def treefactorial(high: int, low: int=None) -> int:
         return low
     return low*high
 
-
 factorial = treefactorial
 
-'''def range_prod(low, high):
-    """Pure Python code, no imports by Daniel Fischer @stackoverflow.com
-    Daniel Fischer says algorithm is old.
-    """
-    if low + 1 < high:
-        mid = (low + high) // 2
-        return range_prod(low, mid)*range_prod(mid + 1, high)
-    if low == high:
-        return low
-    return low*high
+def binom(n: int, k: int) -> int:
+    """Pure Python binomial coefficient, using treefactorial."""
+    return int(factorial(n)/(factorial(k)*factorial(n - k)))
 
 
-def treefactorial(num):
-    """Calculate factorial.
-    Pure Python code, no imports by Daniel Fischer @stackoverflow.com
-    Daniel Fischer says algorithm is old.
-    """
-    if num < 2:
-        return 1
-    return range_prod(1, num)
-
-factorial = treefactorial'''
 if __name__ == '__main__':
     for integer in range(100, -1, -1):
         print(integer, factorial(integer))
