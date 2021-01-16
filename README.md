@@ -28,3 +28,4 @@
 <p>|  q-cosine functions q_cos and q_Cos</p>
 <p>treefactorial.py</p>
 <p>|  factorial</p>
+<p>|   binomial coefficient, faster version using treefactorial binom<p>
