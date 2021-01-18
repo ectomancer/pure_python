@@ -26,6 +26,8 @@
 <p>|  q-exponential functions e_q and E_q</p>
 <p>|  q-sine functions q_sin and q_Sin</p>
 <p>|  q-cosine functions q_cos and q_Cos</p>
+<p>subfactorial.ipynb demo only (see treefactorial.py for special functions)</p>
 <p>treefactorial.py</p>
 <p>|  factorial</p>
-<p>|   binomial coefficient, faster version using treefactorial binom<p>
+<p>|  binomial coefficient, faster version using treefactorial binom</p>
+<p>|  subfactorial, fast algorithm subfactorial</p>
