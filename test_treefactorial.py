@@ -1,5 +1,7 @@
 import math
 
+import sympy
+
 import treefactorial
 
 def test_treefactorial():
@@ -17,3 +19,8 @@ def test_treefactorial():
     assert treefactorial.factorial(10) == 3628800
     for integer in range(11, 101):
         assert treefactorial.factorial(integer) == math.factorial(integer)
+
+def test_subfactorial():
+    """Test subfactorial with pytest."""
+    for n in range(101):
+        assert treefactorial.subfactorial(n) == sympy.functions.combinatorial.factorials.subfactorial(n)
