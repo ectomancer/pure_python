@@ -22,9 +22,10 @@ def treefactorial(high: int, low: int=None) -> int:
 
 factorial = treefactorial
 
+
 def binom(n: int, k: int) -> int:
-    """Pure Python binomial coefficient, using treefactorial."""
-    return int(factorial(n)/(factorial(k)*factorial(n - k)))
+    """Pure Python binomial coefficient using treefactorial."""
+    return factorial(n)//(factorial(k)*factorial(n - k))
 
 
 def _subfactorial1(n: int) -> int:
